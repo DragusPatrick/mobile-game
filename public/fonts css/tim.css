@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'TIM Sans';
+	src: url('../fonts/TIMSans-Medium.eot');
+	src: url('../fonts/TIMSans-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TIMSans-Medium.woff') format('woff'),
+	url('../fonts/TIMSans-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TIM Sans';
+	src: url('../fonts/TIMSans-MediumItalic.eot');
+	src: url('../fonts/TIMSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TIMSans-MediumItalic.woff') format('woff'),
+	url('../fonts/TIMSans-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TIM Sans';
+	src: url('../fonts/TIMSans-Light.eot');
+	src: url('../fonts/TIMSans-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TIMSans-Light.woff') format('woff'),
+	url('../fonts/TIMSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TIM Sans';
+	src: url('../fonts/TIMSans-Thin.eot');
+	src: url('../fonts/TIMSans-Thin.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TIMSans-Thin.woff') format('woff'),
+	url('../fonts/TIMSans-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TIM Sans';
+	src: url('../fonts/TIMSans-BoldItalic.eot');
+	src: url('../fonts/TIMSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TIMSans-BoldItalic.woff') format('woff'),
+	url('../fonts/TIMSans-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TIM Sans';
+	src: url('../fonts/TIMSans-Regular.eot');
+	src: url('../fonts/TIMSans-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TIMSans-Regular.woff') format('woff'),
+	url('../fonts/TIMSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TIM Sans';
+	src: url('../fonts/TIMSans-Bold.eot');
+	src: url('../fonts/TIMSans-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TIMSans-Bold.woff') format('woff'),
+	url('../fonts/TIMSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TIM Sans';
+	src: url('../fonts/TIMSans-Heavy.eot');
+	src: url('../fonts/TIMSans-Heavy.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TIMSans-Heavy.woff') format('woff'),
+	url('../fonts/TIMSans-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}

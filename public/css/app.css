@@ -1,0 +1,1391 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+}
+    #index {
+        background-color: #01918D;
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #index .index-logo {
+        max-width: 100%;
+        height: auto;
+        width: 20%;
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -100px;
+    }
+
+    #index .index-p {
+        font-family: Helvetica, sans-serif;
+        font-size: 50px;
+        color: #ffffff;
+        text-align: center;
+        position: fixed;
+        top: 64%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -100px;
+    }
+
+    #terms-page .terms-header {
+        background-color: #01918D;
+        height: 60px;
+        margin: -10px -10px -10px -10px;
+    }
+
+    #terms-page .terms-p {
+        font-family: Helvetica, sans-serif;
+        font-size: 14px;
+        color: #1A1A1A;
+        padding-right: 30px;
+        padding-left: 10px;
+    }
+
+    #terms-page h3 {
+        font-family: Helvica, sans-serif;
+        color: #111111;
+        font-size: 14px;
+        padding-top: 15px;
+        padding-left: 8px;
+    }
+
+    #terms-page .terms-header img {
+        padding: 20px 0 10px 30px;
+    }
+
+    #terms-page p {
+        padding-left: 10px;
+    }
+
+    #footer {
+        position: relative;
+        background-color: #ebebeb;
+        margin: 120px -10px -10px -10px;
+    }
+
+    #footer .hr {
+        color: #bdbdbd;
+    }
+
+    #footer .footer-ul {
+        margin-top: 10px;
+        list-style: none;
+        padding: 0 0 10px 20px;
+    }
+
+    #footer .footer-li a {
+        font-family: Helvetica, sans-serif;
+        text-decoration: none;
+        line-height: 1.6em;
+        color: #111111;
+        font-size: 15px;
+    }
+
+    #spin-header {
+        background-color: #01918D;
+        margin: -10px -10px -10px -10px;
+    }
+
+    #spin-header img {
+        padding: 10px 0 10px 20px;
+    }
+
+    #spin-header .spin-header-content {
+        margin-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    #spin-header .spin-header-content .spin-title {
+        color: #ebebeb;
+        margin-top: 0;
+    }
+
+    #spin-header .spin-header-content .spin-p {
+        color: #ebebeb;
+    }
+
+    #scratch-page .scratch-header {
+        background-color: #01918D;
+        margin: -10px -10px -10px -10px;
+    }
+
+    #scratch-page .scratch-header img {
+        padding: 10px 0 10px 20px;
+    }
+
+    #scratch-page .scratch-header .scratch-header-content {
+        margin-left: 20px;
+        padding-bottom: 1px;
+    }
+
+    #scratch-page .scratch-header .scratch-header-content .scratch-title {
+        color: #ebebeb;
+        margin-top: 0;
+        font-weight: 300;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    #scratch-page .scratch-header .scratch-header-content .scratch-p {
+        color: #ebebeb;
+        font-family: Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        margin-top: -10px;
+    }
+
+    #scratch-page .scratch-table {
+        margin-top: 40px;
+    }
+
+    #scratch-page .scratch-table td tr {
+        width: 70px;
+    }
+
+    .scratch-prize {
+        line-height: 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .scratch-prize h4 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 10px;
+        height: 14px;
+        padding: 0;
+        margin: 0;
+    }
+    .scratch-prize h3 {
+        font-size: 18px;
+        line-height: 14px;
+        height: 13px;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    #scratch-page .scratch-prize-img {
+        width: 50%;
+    }
+
+    #hidden-objects-1-page .hidden-objects-images {
+        width: 200px;
+        margin: 30px auto;
+    }
+
+    #hidden-objects-1-page .hidden-objects-images .hidden-image-container {
+        position: relative;
+        width: 200px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-images .hidden-image-container .found-spot {
+        border: 1px solid #01918D;
+        position: absolute;
+    }
+
+    #hidden-objects-1-page .hidden-objects-images img {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-header {
+        background-color: #01918D;
+        margin: -10px -10px -10px -10px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-header img {
+        padding: 20px 0 10px 20px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-header .hidden-objects-1-header-content {
+        margin-left: 20px;
+        padding-bottom: 1px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-header .hidden-objects-1-header-content .hidden-objects-1-title {
+        color: #ebebeb;
+        margin-top: 0;
+        font-weight: 300;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-header .hidden-objects-1-header-content .hidden-objects-1-p {
+        color: #ebebeb;
+        font-family: Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        margin-top: -10px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-img img {
+        margin-top: 20px;
+        margin-bottom: -50px;
+        margin-left: -5px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-prize-img {
+        width: 65%;
+        margin-top: 20px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-prize {
+        line-height: 0;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-prize h4 {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-2-img {
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-bottom: -25px;
+    }
+
+    #hidden-objects-1-page .hidden-objects-2-img img {
+        width: 97%;
+        height: auto;
+    }
+
+    #hidden-objects-1-page .drag-img .drag-mini {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    #hidden-objects-1-page .drag-img .drag-mini img {
+        width: 30%;
+    }
+
+    #hidden-objects-1-page .drag-img .drag-maxi {
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: -20px;
+    }
+
+    #hidden-objects-1-page .drag-img .drag-maxi img {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .selectgame-img-1 {
+        position: relative;
+    }
+
+    #hidden-objects-1-page .selectgame-img-1 .img-1 {
+        margin-left: 37px;
+        margin-top: 29px;
+        margin-bottom: 10px;
+        height: 38px;
+    }
+
+    .selectgame-img-1 .text-centered-1 {
+        color: #f7f7f7;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        position: absolute;
+        top: 32px;
+        left: 55px;
+        word-spacing: 18px !important;
+    }
+
+
+    #hidden-objects-1-page .selectgame-img-1 .img-2 {
+        width: 45px;
+        top: 25px;
+        left: 0;
+        position: absolute;
+    }
+
+    #hidden-objects-1-page .selectgame-img-1 {
+        position: relative;
+        width: 99%;
+    }
+
+    #hidden-objects-1-page .select-1 {
+        border: 1px solid #BDBDBD;
+        margin-top: 5px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    #hidden-objects-1-page .select-1 p {
+        font-family: Helvetica, sans-serif;
+        color: #797979;
+        margin-left: 15px;
+    }
+
+    #hidden-objects-1-page .selected p {
+        font-family: Helvetica, sans-serif;
+        color: #000000;
+        margin-left: 15px;
+    }
+
+    #hidden-objects-1-page .select-tip {
+        margin-left: 4px;
+        margin-bottom: -20px;
+    }
+
+    #hidden-objects-1-page .select-tip p {
+        font-family: Helvetica, sans-serif;
+        color: #797979;
+        font-size: 13px;
+    }
+
+    #hidden-objects-1-page .select-game-prize {
+        margin-top: 35px;
+    }
+
+    #scratch-page .memory-images-1 {
+        white-space: nowrap;
+        margin-top: -10px;
+        margin-right: 10px;
+    }
+
+    #scratch-page .memory-images-0 {
+        white-space: nowrap;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+
+    #scratch-page .memory-images-2 {
+        white-space: nowrap;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        margin-right: 10px;
+    }
+
+    #scratch-page .memory-images img {
+        width: 25%;
+    }
+
+    #hidden-objects-1-page .red-button {
+        background-color: #01918D;
+    }
+
+    #hidden-objects-1-page .red-button p {
+        color: white;
+    }
+
+    #hidden-objects-1-page .red-button a {
+        text-decoration: none;
+    }
+
+    #scratch-page .spin-image-1 {
+        max-height:100px;
+        overflow:hidden;
+    }
+
+    #signin-page {
+        height: 200px;
+        background-color: #01918D;
+        margin: -10px -10px auto -10px;
+    }
+
+    #signin-page .bg .signin-text-2 {
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+    }
+
+
+    #signin-page .bg {
+        background: url(/images/bg.png) no-repeat;
+        height: 200px;
+        width: 100%;
+        position: relative;
+        background-position: center;
+        overflow: hidden;
+        background-size: cover;
+    }
+
+    #signin-page .cong img.samsung-t {
+        width: 55px;
+        padding-top: 25px;
+        padding-left: 85px;
+    }
+
+    .input {
+        padding-left: 25px;
+        padding-right: 30px;
+        padding-top: 0;
+    }
+
+    .input input {
+        border: 1px solid #BDBDBD;
+        width: 100%;
+        height: 25px;
+        border-radius: 0;
+        box-sizing: border-box;
+    }
+
+    .input .submit {
+        font-family: Helvetica, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 10px;
+        background-color: #01918D;
+        color: #FFFFFF;
+        height: 40px;
+    }
+
+    #signin-page .signin-p {
+        margin-bottom: 5px;
+        font-family: Helvetica, sans-serif;
+        color: #383838;
+        font-size: 15px;
+    }
+
+    #signin-page .logo {
+        position: absolute;
+        z-index: 1;
+        width: 48px;
+        height: 39px;
+        top: 10px;
+        display: block;
+        left: 10px;
+    }
+
+    #signin-page .bg img {
+        width: 220px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #signin-page .bg .signin-text {
+        text-align: center;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 55px;
+    }
+
+    #signin-page .input-1 .password {
+        border: 1px solid #01918D;
+    }
+
+    #signin-page .input-1 span {
+        color: #01918D;
+        font-size: 12px;
+        float: right;
+    }
+
+    #signin-page .bg-min img {
+        width: 70px;
+        position: relative;
+        top: 55px;
+    }
+
+    #hidden-objects-1-page .playnow-img-1 .playnow-text-centered-1 {
+        color: #f7f7f7;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        position: absolute;
+        top: 25%;
+        left: 49%;
+        word-spacing: 10px;
+    }
+
+    #hidden-objects-1-page .playnow-img-1 .playnow-text-centered-2 {
+        color: #b7cee7;
+        font-family: sans-serif;
+        font-weight: 400;
+        position: absolute;
+        text-transform: uppercase;
+        word-spacing: 30px;
+        font-size: 9px;
+        position: absolute;
+        top: 52px;
+        left: 56px;
+    }
+
+    #hidden-objects-1-page .playnow-img-1 .playnow-img-2 {
+        width: 20%;
+        margin-top: -37px;
+    }
+
+    #hidden-objects-1-page .playnow-img-1 {
+        margin-top: 10px;
+        margin-left: 13px;
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 {
+        margin-top: 15px;
+        position: relative;
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    #hidden-objects-1-page .playnow-red-button {
+        background-color: #01918D;
+        height: 40px;
+        position: relative;
+        margin: 0 10px;
+        top: -35px;
+    }
+
+    #hidden-objects-1-page .playnow-red-button a {
+        color: white;
+        text-align: center;
+        /* padding-top: 23px; */
+        text-decoration: none;
+        padding-left: 70px;
+        /* padding-top: 37px; */
+        /* margin-top: 25px; */
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    #hidden-objects-1-page .playnow-red-button p {
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    #hidden-onjects-1-page .yellow-banner-1 img {
+        margin-left: 20px;
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 .yellowbanner-text-centered-1 {
+        text-align: center;
+        color: #f7f7f7;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        position: absolute;
+        top: 80px;
+        left: 15px;
+        right: 15px;
+        text-align: center;
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 .yellowbanner-text-centered-2 {
+        color: white;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        position: absolute;
+        top: 53px;
+        left: 25px;
+        right: 25px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 .samsung {
+        position: absolute;
+        top: 75px;
+        left: 50px;
+        height: 100px;
+        text-align: center;
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 .purplebanner-text-centered-1 {
+        color: #f7f7f7;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        position: absolute;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 .purplebanner-text-centered-2 {
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        position: absolute;
+        top: 55%;
+        left: 15%;
+        text-transform: uppercase;
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 .samsung-tv {
+        position: absolute;
+        top: 105px;
+        left: 40px;
+        width: 60%;
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-prize .hidden-objects-1-h4 {
+        font-weight: 400;
+        font-size: 14px;
+        /* padding-bottom: 0px; */
+    }
+
+    #hidden-objects-1-page .hidden-objects-1-prize .hidden-objects-1-h3 {
+        margin-bottom: -5px;
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 .purple2banner-text-centered-1 {
+        color: #f7f7f7;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 .purple2banner-text-centered-2 {
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 65px;
+        position: absolute;
+        top: 52%;
+        left: 25%;
+        text-transform: uppercase;
+    }
+
+    #hidden-objects-1-page .yellow-banner-1 .purple2banner-text-centered-3 {
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        top: 75%;
+        left: 38%;
+        text-transform: uppercase;
+    }
+
+    #signin-page .bg-multi .im-1 {
+        width: 55px;
+        padding-top: 45px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    #signin-page .bg-multi .im-2 {
+        width: 70px;
+        padding-top: 45px;
+        padding-right: 15px;
+        padding-bottom: 80px;
+        position: relative;
+    }
+
+    #signin-page .bg-multi .im-3 {
+        width: 55px;
+        padding-top: 40px;
+        padding-right: 45px;
+        padding-bottom: 15px;
+    }
+
+    #signin-page .bg-811 img {
+        padding-left: 85px;
+        padding-top: 60px;
+    }
+
+    #signin-page .bg-811 {
+        position: relative;
+    }
+    .bg-811 #congrats-line {
+        width: 100%;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 50px;
+        font-size: 20px;
+    }
+    .bg-811 #congrats-prize {
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        text-align: center;
+        top: 75px;
+        font-size: 14px;
+    }
+    .bg-811 #level {
+        position: absolute;
+        left: 10px;
+        width: 30%;
+        top: 125px;
+        color: #fff;
+        text-align: center;
+    }
+    .bg-811 #points {
+        position: absolute;
+        right: 10px;
+        width: 30%;
+        top: 125px;
+        color: #fff;
+        text-align: center;
+    }
+    .bg-811 #level-icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 110px;
+    }
+
+    .bg-811 #level-icon img {
+        padding: 0;
+        margin: 0;
+        width: 50px;
+        top: 10px;
+        margin:0 auto;
+    }
+    .bg-811 #prize-image {
+        padding: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        height: 100px;
+        top: 100px;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .bg-811 #prize-image img {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        height: 140px;
+        top: 20px;
+        width: 140px;
+        display: block;
+        left: 50%;
+        right: 50%;
+        margin-left: -70px;
+        margin-top: -5px;
+    }
+
+
+    #signin-page .input-win-24 .submit {
+        font-family: Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 10px;
+        background-color: white;
+        color: #BDBDBD;
+        height: 40px;
+    }
+
+    #signin-page .input-win-25 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #signin-page .input-win-25 .txt-1 {
+        font-family: Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: #B5623F;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    #signin-page .input-win-25 .txt-2 {
+        font-family: Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        color: #C4C5C0;
+        margin: 0px;
+    }
+
+    #hidden-objects-1-page .red-banner .yellowbanner-text-centered-1 {
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        position: absolute;
+        top: 115px;
+        left: 100px;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+    }
+
+    #hidden-objects-1-page .red-banner .yellowbanner-text-centered-2 {
+        text-align: center;
+        color: #f7f7f7;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 55px;
+        position: absolute;
+        top: 65px;
+        left: 100px;
+        transform: translate(-50%, -50%);
+    }
+
+    #hidden-objects-1-page .red-banner .yellowbanner-text-centered-3 {
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        position: absolute;
+        top: 135px;
+        left: 100px;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+    }
+
+    #signin-page .win img {
+        width: 80px;
+        position: relative;
+        top: 75px;
+        left: 50px;
+    }
+
+    #signin-page .win .text {
+        color: white;
+        position: absolute;
+        top: 55px;
+        font-size: 20px;
+        left: 45px;
+    }
+
+    #signin-page .win-gray .submit {
+        background-color: white;
+        color: #B7B7B7;
+    }
+
+    #signin-page .win .text-2 {
+        color: white;
+        position: relative;
+        top: 79px;
+        font-weight: 400;
+        font-size: 17px;
+        left: 25px;
+    }
+
+    #signin-page .win .tv {
+        width: 185px;
+        position: relative;
+        top: 85px;
+        left: 5px;
+    }
+
+    #scratch-page .spin-image-1 {
+        max-height: 115px;
+        width: 100%;
+        overflow: hidden;
+        top: 45px;
+        position: relative;
+        margin-bottom: 75px;
+    }
+
+    #scratch-page .spin-image-1 .spin-pimg {
+        position: relative;
+        width: 100%;
+        bottom: 123px;
+        margin-bottom: 50px;
+        height: auto;
+    }
+
+    #scratch-page .spin-image-1 .spin-mark {
+        left: 50%;
+        right: 50%;
+        margin-left: -15px;
+        position: absolute;
+        z-index: 5;
+    }
+
+    #scratch-page .input {
+        padding-left: 25px;
+        padding-right: 30px;
+        font-size: 16px;
+    }
+
+    #scratch-page input {
+        background-color: #01918D;
+        font-size: 16px;
+        color: white;
+        width: 100%;
+        height: 40px;
+        border-radius: 0;
+        position: relative;
+        top: 25px;
+    }
+
+    #scratch-page .spinning input {
+        background-color: white;
+        font-size: 16px;
+        color: #BDBDBD;
+        border: 1px solid #BDBDBD;
+    }
+
+    #signin-page .input .signin-error {
+        font-size: 11px;
+        color: #01918D;
+        float: left;
+        padding-top: 10px;
+    }
+
+    #signin-page .bg-multi .im-1 {
+        width: 50px;
+        padding-top: 35px;
+        padding-left: 25px;
+        position: relative;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        float: left;
+        left: 25px;
+        top: 33px;
+    }
+
+    #signin-page .bg-multi .im-2 {
+        width: 70px;
+        padding-top: 30px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        margin-left: -34px;
+    }
+
+    #signin-page .bg-multi .im-3 {
+        width: 50px;
+        padding-top: 30px;
+        margin-top: 7px;
+        padding-right: 0px;
+        /* padding-bottom: 16px; */
+        float: right;
+        position: absolute;
+        right: 45px;
+        top: 32px;
+        /* overflow: hidden; */
+        /* z-index: 999; */
+    }
+
+    #signin-page .bg-multi img {
+        top: 30px;
+    }
+
+    #signin-page .bg .on_boarding_text_second {
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 55px;
+    }
+
+    #hidden-objects-1-page .select-1 img {
+        padding-right: 15px;
+        float: right;
+    }
+
+    #hidden-objects-1-page .select-1 a {
+        text-decoration: none;
+    }
+
+    #hidden-objects-1-page .selected img {
+        padding-top: 3px;
+    }
+
+    #scratch-page .input-1 a {
+        border: 1px solid #01918D;
+        background-color: #01918D;
+        color: white;
+        width: 190px;
+        height: 50px;
+        border-radius: 0;
+        position: relative;
+        top: 35px;
+        padding: 10px;
+        text-decoration: none;
+        left: 10px;
+    }
+
+    .scratch-prize {
+        line-height: 0;
+        margin-top: 45px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .selectgame-img-1 .text-centered-2 {
+        color: #b7cee7;
+        font-family: sans-serif !important;
+        font-size: 11px !important;
+        position: absolute;
+        top: 49px;
+        left: 55px;
+        text-transform: uppercase;
+        word-spacing: 14px !important;
+        height: 10px;
+        line-height: 8px;
+    }
+
+    .scratch-prize .scratch-prize-img {
+        width: 40%;
+    }
+
+    #hidden-onjects-1-page .red-banner img {
+        padding-left: 30px;
+    }
+
+    #signin-page .spinning-disable .submit {
+        background-color: white;
+        font-size: 10px;
+        color: #BDBDBD;
+        border: 1px solid #BDBDBD;
+        width: 185px;
+        height: 40px;
+    }
+
+
+    #hidden-objects-1-page .yellow-banner-1 {
+        margin-top: 15px;
+        position: relative;
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    #hidden-objects-1-page .yellow-badge img {
+        width: 38%;
+        float: right;
+        overflow: hidden;
+        margin-left: 19px;
+        margin-top: -78px;
+        /* margin-bottom: 10px; */
+    }
+
+    #hidden-objects-1-page .yellow-badge .yellowbanner-text-centered-1 {
+        text-align: center;
+        color: #f7f7f7;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        position: absolute;
+        top: -54px;
+        left: 140px;
+        transform: translate(67%, -50%);
+    }
+
+    #hidden-objects-1-page .yellow-badge .yellowbanner-text-centered-2 {
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        position: absolute;
+        top: -30px;
+        left: 185px;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+    }
+
+    #signin-page .bg .winner-one-page {
+        width: 70px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+
+    #scratch-page .memory-images a {
+        text-decoration: none;
+    }
+
+    #signin-page .signin-pages .signin-error {
+        color: #01918D;
+    }
+
+    #signin-page .signin-pages .txt-1 p {
+        margin-bottom:  5px;
+    }
+
+    #hidden-objects-1-page a {
+        text-decoration: none;
+    }
+
+    .forgot-footer {
+        background-color: #ebebeb;
+        margin: 135px -10px -10px -10px;
+    }
+
+
+.prize-badge{
+    position: absolute;
+    right: 10px;
+    top: -114px;
+    height: 125px;
+}
+
+.prize-badge img {
+    height: 125px;
+}
+
+.prize-badge .badge-heading {
+    position: absolute;
+    top: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+.prize-badge .badge-content {
+    position: absolute;
+    top: 30px;
+    color: #fff;
+    font-size: 9px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+.red-prize-badge .badge-heading {
+    top: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+.red-prize-badge .badge-content {
+    top: 55px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.prize-badge .badge-image {
+    position: absolute;
+    bottom: 11px;
+    left: 50%;
+    right: 50%;
+    width: 42%;
+    margin-left: -21%;
+    height: auto !important;
+}
+
+.prize-result-banner{
+    width: auto !important;
+    margin-right: 13px;
+}
+.prize-result-bg {
+    width: 100%;
+}
+.prize-result-image{
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    right: 50%;
+    margin-left: -20%;
+    bottom: 0;
+}
+
+.banner-red .yellowbanner-text-centered-2 {
+    font-size: 28px !important;
+    top: 75px !important;
+}
+
+.banner-red .yellowbanner-text-centered-1 {
+    top: 120px !important;
+}
+
+.prize-result-bg {
+    position: relative;
+    bottom: -20px;
+}
+.spin-wheel-static {
+    bottom: -5px !important;
+}
+.prize-h4{
+    font-size: 11px;
+}
+#msisdn-field {
+    box-sizing: border-box;
+    padding-left: 30px;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    display: block !important;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+}
+.prefix{
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    font-size: 11px !important;
+    color: #1d1d1d !important;
+    border: 1px solid #ccc;
+    padding: 4px;
+    padding-bottom: 3px;
+    padding-top: 6px;
+    z-index: 5;
+    background: #fff;
+    width: 20px;
+    line-height: 12px;
+    height: 14px;
+    text-align: right;
+    font-family: sans-serif;
+    margin-top: 1px;
+}
+.signin-message {
+    top: 10px;
+    position: relative;
+}
+
+input {
+    display: block !important;
+}
+
+html, body {
+    font-family: sans-serif !important;
+}
+
+.full-width {
+    width: 100%;
+}
+.relative {
+    position: relative;
+}
+.red-btn {
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
+    background-color: #01918D;
+    color: white;
+    height: 40px;
+    text-align: left;
+}
+
+.buy-credits-container {
+    padding:0 10px;
+}
+
+.buy-btn .buy-icon {
+    position: absolute;
+    left:0;
+    top:1px;
+    bottom:0;
+    height: 40px;
+    width: 37px;
+}
+.buy-btn .buy-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.buy-btn .buy-price {
+    position: absolute;
+    right: 0;
+    /* top: 1px; */
+    bottom: 0;
+    width: 117px;
+    height: 47px;
+}
+.buy-btn .buy-price .buy-price-text {
+    position: absolute;
+    top: 18px;
+    bottom: 11px;
+    right: 14px;
+    z-index: 2;
+    color: #1A1A1A;
+    width: 70px;
+    /* text-align: center; */
+}
+.buy-btn .buy-amount {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    vertical-align: middle;
+    line-height: 40px;
+    left: 40px;
+    z-index: 1;
+}
+.buy-btn .buy-price img {
+    width: 100%;
+    height: 75px;
+}
+.clearfix {
+    clear: both;
+}
+.pull-footer-up {
+    margin-top: -120px;
+}
+
+.coins-text {
+    font-size: 20px !important;
+    top: 37px !important;
+    word-spacing: 5px !important;
+}
+.coins-band {
+    margin-top: -35px;
+}
+.coin-image {
+    display: inline-block;
+    height: 23px;
+    vertical-align: middle;
+}
+.btn-play-again {
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+#general-header{
+    padding-top: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff !important;
+}
+
+#general-header .heading {
+
+}
+
+#general-header .text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.button-link{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.buy-btn {
+    background-color: #D72A33;
+}
