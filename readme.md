@@ -3,7 +3,7 @@
 ## Credits Version (02.02.2018)
 
 ### Staging
-http://credits.games.phase4.codesilklive.com 
+http://credits.games.phase4.codixital.com 
 ### Changes
 - finished credits implementation
 - works well both on credits and subscription scheme
